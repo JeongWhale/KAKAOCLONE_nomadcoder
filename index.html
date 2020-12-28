@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Whale Talk</title>
+  </head>
+  <body>
+    <!--Status bar-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon-->
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:47</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!--Header-->
+    <header class="index-header">
+      <h1 class="index-header__title">Welcome to WhaleTalk</h1>
+      <p class="index-header__text">
+        If you have a Whale Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <!--Form-->
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#" class="login-form__link">Find Whale Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/db685bf63d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

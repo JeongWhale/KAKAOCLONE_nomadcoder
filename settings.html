@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - WhaleTalk</title>
+  </head>
+  <body>
+    <!--Status bar-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon-->
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:47</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!--Screen-header-->
+    <header class="setting-header">
+      <div class="alt-header">
+        <span class="setting-header__direction">
+          <a href="chats.html">
+            <i class="fas fa-chevron-left fa-2x"></i>
+          </a>
+        </span>
+      </div>
+
+      <div class="alt-header">
+        <h4 class="setting-header__list">Settings</h4>
+      </div>
+
+      <div class="alt-header">
+        <span class="setting-header__search">
+          <a href="#">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <!--Settings list-->
+    <main class="main-screen">
+      <ul class="setting-list">
+        <li class="settings-setting">
+          <div class="settings-setting__column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings-setting__column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="settings-setting__column">
+          <i class="fas fa-flask"></i>
+          <span>Whale Lab</span>
+          </div>
+          <div class="settings-setting__column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="settings-setting__column">
+          <i class="fas fa-info-circle"></i>
+          <span>Version</span>
+          </div>
+          <div class="settings-setting__column">Latest Version</div>
+        </li>
+      </ul>
+     
+    </main>
+
+
+    <!--Bottom Nav-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="search.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+              <span class="nav__notificationcheck"></span>
+            </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/db685bf63d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

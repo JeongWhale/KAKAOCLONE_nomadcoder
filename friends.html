@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - WhaleTalk</title>
+  </head>
+  <body>
+    <!--Status bar-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon-->
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:47</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!--Screen-header-->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span>
+          <a href="#"><i class="fas fa-search fa-lg"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="fas fa-music fa-lg"></i></a>
+        </span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
+      </div>
+    </header>
+
+    <!--Friends name-->
+    <a id="friends-display-link" href="">
+      <i class="fas fa-info-circle"></i>
+      Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i
+    ></a>
+
+    <main class="friends-screen__main">
+      <!--User component-->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars0.githubusercontent.com/u/75857130?s=460&u=e30d953207376c9d63175b95529d237371ba06d4"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">JeongWhale</h4>
+            <!--<h6 class="user-component_subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <!--Channel bar-->
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel_header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+      </div>
+
+      <!--User component-->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="file:///Users/wooklas/Desktop/channel.jpg"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not--bold">
+              Channel
+            </h4>
+            <!--<h6 class="user-component_subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div>
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Bottom Nav-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <span class="nav__notificationcheck"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <a href="#"><i class="fas fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen in too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/db685bf63d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

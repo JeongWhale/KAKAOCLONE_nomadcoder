@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - WhaleTalk</title>
+  </head>
+  <body>
+    <!--Status bar-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon-->
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:47</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!--Screen-header-->
+    <header class="screen-header__chats">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span>
+          <a href="#"><i class="fas fa-search fa-lg"></i></a>
+        </span>
+        <span>
+            <a href="#"><i class="fas fa-music fa-lg"></i></a>
+          </span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg screen-position__relative"><span class="badge-sm"></span></a></i>
+        </span>
+      </div>
+    </header>
+
+
+    <main class="main-screen more-screen">
+     <!--User component-->
+    <div class="user-component">
+        <div class="user-component__column">
+            <img
+                src="https://avatars0.githubusercontent.com/u/75857130?s=460&u=e30d953207376c9d63175b95529d237371ba06d4"
+                class="user-component__avatar user-component__avatar--xl"
+            />
+         <div class="user-component__text">
+                <h4 class="user-component__title">JeongWhale</h4>
+                <div class="user-component__text__highlight">
+                    <h6 class="user-component__subtitle">+82 4934-0093</h6>
+                    <span class="badge-highlight">!</span>
+                </div>
+              </div>
+            </div>
+            <div class="user-component__column"><i class="far fa-comment-alt fa-2x"></i></div> 
+    </div>
+    <!--icons-->
+    <div class="icons-row">
+        <div class="icons-row__icon">
+            <i class="far fa-calendar"></i>
+          <span>Calendar</span></div>
+        <div class="icons-row__icon">
+            <i class="far fa-smile-beam"></i>
+          <span>Emotions</span></div>
+        <div class="icons-row__icon">
+            <i class="fas fa-paint-roller"></i>
+          <span>Themes</span></div>
+        <div class="icons-row__icon">
+            <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span></div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+
+        <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <span class="more-suggestions__icon-text">kakao story</span>
+            </div>
+
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <span class="more-suggestions__icon-text">kakao story</span>
+            </div>
+        </div>
+
+      </div>
+
+    </main>
+
+
+    <!--Bottom Nav-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="search.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+              <span class="nav__notificationcheck"></span>
+            </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/db685bf63d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
